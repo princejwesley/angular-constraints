@@ -26,7 +26,7 @@ A tiny angular custom validation enabler using ngModel and ngMessage
       return true;
     };    
     
-    angular.module('myModule', ['ngMessage', 'angular-constraints']);
+    angular.module('myModule', ['ngMessages', 'angular-constraints']);
 ```
 
 *constraints* directive takes custom functions separated by white space characters, comma, colon, semi-colon or pipe character.
